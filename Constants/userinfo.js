@@ -13,48 +13,48 @@ import {
 
 
 export const userinfo = {
-    logoText: "Hamed Asgari", //This text is visible on your navbar and footer like your logo.
+    logoText: "Hamed Abedini", //This text is visible on your navbar and footer like your logo.
     contact: {
-        email: 'hamedasgari20@yahoo.com', //It is always a good idea to mention your email on your website. Good platform to communicate.
-        phone: '9332737739', //Phone number is optional, if you dont want it, consider leaving it blank .
-        countrycode: '+98' //It is advisable to add the country code incase you mention your contact number.
+        email: 'hamed.abedini68@gmail.com', //It is always a good idea to mention your email on your website. Good platform to communicate.
+        phone: '0451291512', //Phone number is optional, if you dont want it, consider leaving it blank .
+        countrycode: '+61' //It is advisable to add the country code incase you mention your contact number.
     },
     socials: [
         //For aesthetics, it is advisable for you to mention upto 4 social media links only. Fill in the links.
         //more icons are imported above, use as you like them.
-        {type: 'github', link: 'https://github.com/hamedasgari20', icon: faGithubAlt},
-        {type: 'linkedin', link: 'https://www.linkedin.com/in/hamed-asgari-18ab89b6/', icon: faLinkedinIn},
+        {type: 'github', link: '', icon: faGithubAlt},
+        {type: 'linkedin', link: 'https://www.linkedin.com/in/hamed-abedini-41041bb6/', icon: faLinkedinIn},
         {type: 'medium', link: '', icon: faMediumM},
     ],
     greeting: {
         //this text goes on your landing page
         title: "Hey there, I am Hamed.",
-        subtitle: "Before any professional or academic title, I like to be known as a continuous learner. After graduating with a master's degree in industrial engineering, I decided that I needed to master computer science more. After several years of learning, I am currently a full-stack software developer. My idea is to integrate the field of operation research and computer science to produce knowledge-based products in the IT platform."
+        subtitle: "I am an experienced Electrical Engineer with a demonstrated history of working in various electrical and electronic manufacturing industries. I am also highly skilled in interior & outdoor lighting design, building, Dialux, PLC, and Industrial electrical power as well as installation lighting systems. Qualified with an MSc in electrical engineering, I have a solid background in designing, manufacturing and creating innovative lighting products. I have more than 10 years of experience in providing better light for a better life."
     },
     capabilities: [
         //this text goes on your home page in table format.
         //For aesthetics, it is advisable for you to mention upto 4 catgeories links only.
         //For aesthetics, it is advisable for you to keep similar number of skills in each category
         {
-            category: "Backend Developer", // eg.frontend, backend, devops etc
-            skills: ["Python", "Django", "Docker"] //eg. react, html, python etc.
+            category: "Lighting Control", // eg.frontend, backend, devops etc
+            skills: ["Knowledge", "equipment", "communication"] //eg. react, html, python etc.
         },
         {
-            category: "Frontend Developer",
-            skills: ["React", "NextJs", "JavaScript"]
+            category: "Architectural Lighting",
+            skills: ["Tight deadlines", "Colour vision", "Motion pictures"]
         },
         {
-            category: "Optimization",
-            skills: ["Mathematical modelling", "Meta-heuristic", "GAMS"]
+            category: "Street Lighting",
+            skills: ["Maintenance", "Design", "Improvement"]
         },
         {
-            category: "Algorithm trading",
-            skills: ["Quantitative analysis", "Backtesting", "Bot creating"]
+            category: "Management",
+            skills: ["Listening skills", "Relationship building", "Strategic thinking"]
         },
     ],
     about: {
         //this text goes at the bottom of your home page.
-        content: "Before any professional or academic title, I like to be known as a continuous learner. After graduating with a master's degree in industrial engineering, I decided that I needed to master computer science more. After several years of learning, I am currently a full-stack software developer. My idea is to integrate the field of operation research and computer science to produce knowledge-based products in the IT platform.",
+        content: "I am an experienced Electrical Engineer with a demonstrated history of working in various electrical and electronic manufacturing industries. I am also highly skilled in interior & outdoor lighting design, building, Dialux, PLC, and Industrial electrical power as well as installation lighting systems. Qualified with an MSc in electrical engineering, I have a solid background in designing, manufacturing and creating innovative lighting products. I have more than 10 years of experience in providing better light for a better life.",
         resume: "/" //link your resume here. it can be drive link or any other link
     },
     education: {
@@ -69,14 +69,14 @@ export const userinfo = {
             {
                 time: '2008 May - Oct 2012',
                 title: 'Bachelor of Science',
-                organization: 'Bu Ali Sina University',
-                description: 'Industrial engineering (Optimization)'
+                organization: 'Hamedan University of Technology',
+                description: 'Electrical engineering engineering'
             },
             {
                 time: '2015 May - Oct 2018',
                 title: 'Master of Science',
-                organization: 'Bu Ali Sina University',
-                description: 'Industrial engineering (Optimization)'
+                organization: 'Islamic Azad University',
+                description: 'Electrical engineering '
             },
         ],
     },
@@ -84,31 +84,31 @@ export const userinfo = {
         visible: true, //set this to false if you want to omit this section
         experienceList: [
             {
-                company: 'Freelancer', //company name eg.Microsoft
+                company: 'Iran Electric Lighting', //company name eg.Microsoft
                 companylogo: '', //companylogo
-                position: 'Algorithm trader', //post you held eg.Senior SDE
-                time: 'Jan 2021 - Dec 2021', //timespan
-                description: 'My duties was backtesting financial strategies and parameter optimization and creating bots with python language for auto trading' //eg. spearheaded the graphics team in designing SASS product UIs
+                position: 'CEO', //post you held eg.Senior SDE
+                time: 'Jan 2016 - Dec 2021', //timespan
+                description: 'My duty as a group manager has been to set up and improve the human resource management system.' //eg. spearheaded the graphics team in designing SASS product UIs
             },
             {
-                company: 'Pishtrade',
+                company: 'Ekbatan Gas Control',
                 companylogo: '',
-                position: 'Full Stack Developer',
-                time: 'Jan 2022 - Aug 2022',
-                description: 'My duties was building NVP of pishtrade'
+                position: 'Electrical Technician',
+                time: 'Nov 2009 - Aug 2018',
+                description: 'My duties was design, develop, and test electrical devices and equipment, including communications systems, power generators, motors and navigation systems, and electrical systems for automobiles and aircraft. '
             },
             {
-                company: 'RayanBourse',
+                company: 'Behsa Noor Wholesaler lighting company',
                 companylogo: '',
-                position: 'Full Stack Developer',
-                time: 'Aug 2022 - Current',
-                description: 'My duties is developing company software with Django for backend and NextJs for frontend development'
+                position: 'CEO',
+                time: 'Aug 2020 - Current',
+                description: 'My duties was managing a company\'s overall operations. This may include delegating and directing agendas, driving profitability, managing company organizational structure, strategy, and communicating with the board.'
             },
         ],
     },
     blogs: {
         //set this to false if you want to omit this section
-        visible: true
+        visible: false
     },
 }
 
